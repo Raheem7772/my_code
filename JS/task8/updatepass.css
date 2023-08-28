@@ -1,0 +1,10 @@
+.conatiner{
+    background-image: linear-gradient(pink,rgb(102, 102, 167));
+    height: 60vh;
+    width: 50vh;
+}
+.error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+  }

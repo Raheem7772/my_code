@@ -1,0 +1,19 @@
+.title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(126, 122, 117);
+    margin: 2px;
+}
+.inputbox{
+    margin: 5px;
+    padding: 2px;
+    width: 150px;
+}
+.btn{
+    margin: 10px;
+    position: center;
+   
+}
+.updatedArray{
+    font-size: 25px;
+}

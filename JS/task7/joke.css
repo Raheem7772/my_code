@@ -1,0 +1,26 @@
+.container{
+    height: 70vh;
+    width: 50vh;
+    background-color: rgb(131, 131, 141);
+}
+.img{
+    height: 150px;
+    width: 150px;
+}
+.para{
+    color: white;
+    font-size: 20px;
+
+}
+#jokeBtn{
+    border-radius: 8px;
+    font-size: 20px;
+    color: rgb(98, 238, 5);
+    background-color: aliceblue;
+    padding: 6px;
+    width: 90px;
+    text-align: center;
+}
+#jokeText{
+    font-size: 30px;
+}

@@ -1,0 +1,28 @@
+.bg-container{
+    background-color: rgb(127, 196, 196);
+    padding-left: 20px;
+}
+.text{
+    border-radius: 6px;
+}
+.title{
+    font-family: monospace;
+    font-weight: bold;
+}
+#convertBtn{
+    margin-top: 4px;
+    border-radius: 8px;
+    color: green;
+    font-size: 15px;
+    padding: 2px;
+    font-weight: bold;
+    width: auto;
+}
+.textseconds{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#timeInSeconds{
+    font-size: 50px;
+
+}

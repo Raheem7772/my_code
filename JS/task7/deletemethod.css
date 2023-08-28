@@ -1,0 +1,23 @@
+.container{
+    background-color: rgb(121, 194, 121);
+    height:auto;
+}
+.req{
+    color: rgba(38, 0, 255, 0.973);
+}
+#requestBody{
+    border-radius: 8px;
+}
+.btn{
+    padding: 2px;
+    margin-top: 7px;
+}
+.request-status{
+    height: 30px;
+}
+.http-response{
+    height: 50px;
+}
+#userInput{
+    border-radius: 7px;
+}

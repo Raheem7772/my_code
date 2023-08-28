@@ -1,0 +1,143 @@
+.R-logo{
+    border-radius: 20px;
+}
+#navItem1:hover{
+    color: rgb(71, 7, 248);
+}
+#navItem2:hover{
+    color: rgb(71, 7, 248);
+}
+#navItem3:hover{
+    color: rgb(71, 7, 248);
+}
+#navItem4:hover{
+    color: rgb(71, 7, 248);
+}
+#navItem5:hover{
+    color: rgb(71, 7, 248);
+}
+.bg-container{
+    background-color: rgb(161, 179, 179);
+}
+.banner-img{
+    height: 300px;
+    width: 300px;
+    border-radius: 200px;
+}
+.h2-heading{
+    color: brown;
+}
+.banner-para{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+.banner-button{
+    background-color: blueviolet;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+.about-container{
+    background-color: white;
+}
+.abouth3-heading{
+    color:rgba(3, 3, 3, 0.952);
+    font-size: 17px;
+}
+.abouth2-heading{
+    color: rgb(124, 211, 10);
+}
+.about-image{
+    height: 300px;
+    width: 400px;
+    border-radius: 10px;
+}
+.about-para{
+    font-size: 17px;
+    color: rgb(13, 15, 15);
+}
+.about-container1{
+    background-color: rgb(226, 226, 118);
+}
+.skills-heading{
+    color: blueviolet;
+}
+.card{
+    height: 140px;
+    width: 150px;
+}
+.card-img{
+    height: 100px;
+    width: 100px;
+}
+.pro-container{
+    background-color: #ecf9ff;
+}
+.pro-img{
+    height: 200px;
+    width: 400px;
+}
+.menu-item-link{
+    color: red;
+}
+.pro-para{
+    font-size: 15px;
+}
+.ser-container{
+    background-color: blanchedalmond;
+}
+.fa-brands{
+   font-size: 70px;
+   color: yellowgreen;
+}
+.fa-sharp{
+    font-size: 100px;
+    color: yellowgreen; 
+}
+.ser-h5{
+    color: rgb(60, 36, 168);
+}
+.fa-sharp{
+    font-size: 50px;
+    color: yellowgreen;
+}
+.card-ser{
+    border-radius: 20px;
+}
+.work-img{
+    height: 70vh;
+    width: 200vh;
+}
+.fa-regular{
+    font-size: 100px;
+    color: blue;
+}
+.work-container{
+    background-color: rgb(255, 255, 255);
+}
+.footer-image{
+    height: 100px;
+    width: 100px;
+}
+.foot-container{
+    background-color: rgb(85, 93, 136);
+}
+.foot-heading{
+    color: yellow;
+    font-size: 30px;
+    font-family: roboto;
+}
+.fa-solid{
+    font-size: 20px;
+}
+.foot-container1{
+    background-color: rgb(61, 70, 126);
+}
+.work-container{
+    background-image: url(https://res.cloudinary.com/dsm5qqqrm/image/upload/v1688541956/samples/landscapes/landscape-panorama.jpg);
+}
+.hrline{
+height: 10px;
+width: 100px;
+border-width: 3px;
+border-color: aqua;
+}

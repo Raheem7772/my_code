@@ -1,0 +1,18 @@
+.time-container{
+    background-color: rgb(118, 154, 196);
+    text-align: center;
+}
+.user-input{
+    font-size: 20px;
+    height: 35px;
+    border-radius: 8px;
+    padding: 3px;
+    margin-bottom: 9px;
+}
+.time-display{
+    font-size: 40px;
+    color: red;
+}
+.bomb-img{
+    border-radius: 10px;
+}

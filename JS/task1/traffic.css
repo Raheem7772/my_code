@@ -1,0 +1,31 @@
+.bg-container{
+    background-color: #52c2b9;
+    height: 60vh;
+    width: 60vh;
+}
+.heading{
+    padding-bottom: 20px;
+}
+.trafficbutton{
+color: white;
+background-color: rgb(31, 29, 65);
+font-family: "Roboto";
+font-size: 20px;
+width: 99px;
+height: 44px;
+border-radius: 8px;
+margin: 16px;
+}
+.bg-light-container{
+    background-color: #1f1d41;
+    height: 30vh;
+    width: 11vh;
+    border-radius: 35px;
+}
+.circle{
+    background-color:grey;
+    height: 35px;
+    width: 35px;
+    margin: 20px;
+    border-radius: 20px;
+}

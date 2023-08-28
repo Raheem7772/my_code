@@ -1,0 +1,20 @@
+.bg-container{
+    background-color: rgba(113, 197, 197, 0);
+    background-image: url(https://res.cloudinary.com/dsm5qqqrm/image/upload/v1688541951/samples/landscapes/beach-boat.jpg);
+    background-repeat: no-repeat;
+}
+
+
+
+
+.nav-item{
+    color: black;
+    font-size: bold;
+}
+.img-car{
+    width:100vh; 
+}
+.footer_container{
+    margin-top: 20px;
+    
+}

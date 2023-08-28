@@ -1,0 +1,47 @@
+.bg-container {
+    background: linear-gradient(#367daf, #1e583f);
+    height: 100vh;
+}
+
+.peace-container {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.peace-heading {
+    font-size: 34px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+.peace-paragraph {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #616e7c;
+}
+
+.peace-heading-2 {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+.buttons-list-container {
+    list-style: none;
+}
+.list-button{
+    height: 60px;
+    color: white;
+    background-color: #1a84cf;
+    margin: 6px;
+    border-radius: 8px;
+    border-color: #1a84cf;
+
+}
+.timer-display{
+    font-size: 25px;
+    color: red;
+}

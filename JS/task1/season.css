@@ -1,0 +1,45 @@
+.image{
+    height: 90vh;
+    width: 80vh;
+}
+
+.spring-button{
+    color: white;
+    background-color: green;
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    font-family: roboto;
+    margin: 20px;
+    border-color: white;
+}
+.summer-button{
+    color: white;
+    background-color: rgb(253, 253, 0);
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    font-family: roboto;
+    margin: 20px;
+    border-color: white;
+}
+.autumn-button{
+    color: white;
+    background-color: rgb(110, 36, 9);
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    font-family: roboto;
+    margin: 20px;
+    border-color: white;
+}
+.winter-button{
+    color: white;
+    background-color: rgb(25, 25, 138);
+    height: 30px;
+    width: 80px;
+    border-radius: 8px;
+    font-family: roboto;
+    margin: 20px;
+    border-color: white;
+}

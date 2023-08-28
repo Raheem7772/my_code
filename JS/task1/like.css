@@ -1,0 +1,14 @@
+.puppyimg{
+    height: 60vh;
+    width: 60vh;
+}
+.button{
+    height: 35px;
+    width: 80px;
+    padding: 4px;
+    border-radius: 8px;
+}
+.fa-regular{
+    font-size: 35px;
+    
+}

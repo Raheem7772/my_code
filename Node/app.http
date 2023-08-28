@@ -1,0 +1,28 @@
+GET http://localhost:3000/
+###
+GET http://localhost:3000/details
+
+###
+GET http://localhost:3000/details/4
+###
+POST http://localhost:3000/addemp
+Content-Type: application/json
+
+{
+    "ID":9,
+    "NAME":"Hari",
+    "AGE":25,
+    "ADDRESS":"Hyderabad",
+    "SALARY":29000
+}
+###
+PUT http://localhost:3000/details/4
+Content-Type: application/json
+
+{
+    "AGE":22,
+    "ADDRESS":"Ohio",
+    "SALARY":38000
+}
+###
+DELETE http://localhost:3000/delete/9

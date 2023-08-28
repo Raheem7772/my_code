@@ -1,0 +1,121 @@
+#navItem1:hover {
+    color: #0b7de9;
+    font-family: "roboto";
+}  
+#navItem2:hover {
+    color: #0b7de9;
+    font-family: "roboto";
+}  
+#navItem3:hover {
+    color: #0b7de9;
+    font-family: "roboto";
+}
+#navItem4:hover {
+    color: #0b7de9;
+    font-family: "roboto";
+}
+.banner-section-bg-container{
+    background-image: url(https://res.cloudinary.com/dsm5qqqrm/image/upload/v1688916822/2023.01.15.Menu.167.Raw.CML.0354.95_xchhzn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 50vh;
+}
+.banner-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 45px;
+    font-weight: 300;
+    }
+    .banner-caption {
+    color: #f5f7fa;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 300;
+    }
+    .custom-button {
+    color: white;
+    background-color: #0b8a0bc9;
+    width: 130px;
+    height: 45px;
+    border-width: 0;
+    border-radius: 8px;
+    margin-right: 10px;
+    }
+.custom-outline-button {
+    color: #0b8a0bc9;
+    background-color: transparent;
+    width: 130px;
+    height: 45px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #0b8a0bc9;
+    border-radius: 8px;
+}
+.fa-brands{
+    font-size: 30px;
+    color: rgb(30, 255, 0);
+}
+.bg-container{
+    background-color: #426688;
+}
+.footer-email{
+    color: #f5f7fa;
+}
+.wcu-section{
+    background-color: #f3f6f8;
+}
+.wcu-heading{
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+.wcu-description {
+    color: #5a7184;
+    font-family: "Roboto";
+    font-size: 16px;
+    }
+.wcu-card {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e5eaf4;
+    border-radius: 16px;
+     }
+.wcu-card-image {
+        width: 90px;
+        height: 90px;
+        } 
+.wcu-card-title{
+color: #323f4b;
+font-family: "Roboto";
+font-size: 22px;
+font-weight: 500;
+}
+.wcu-card-description{
+color: #7b8794;
+font-family: "Roboto";
+font-size: 16px;
+
+} 
+.ems{
+    background-color: white;
+}
+.ems-heading{
+    color: #00000a;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: 700;
+}
+.menu-card-title{
+    font-family: "italic";
+    font-size: 20px;
+    font-weight: 40;
+}
+.menu-item-link{
+    color: rgba(236, 110, 6, 0.555);
+    font-size: 15px;
+    font-weight: bold;
+
+}

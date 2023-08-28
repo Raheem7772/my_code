@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rental_Tolet</title>
+    <link rel="stylesheet" href="rental.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/477b92eee2.js" crossorigin="anonymous"></script>
+  </head>
+<body>
+    <!--header starts-->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color:orange;">
+        <a class="navbar-brand" href="#">
+            <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689623920/rebrand-rent-logo-dark.8e01afa7_jwgrif.svg" 
+            width="80" height="80" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#" id="navItem">Home </a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#" id="navItem">Houses</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#" id="navItem">Cars</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#" id="navItem">Bikes</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#" id="navItem">Services</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+    <!--header ends-->
+    <!--carousel starts-->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689623551/1200x628_gsziai.png" class="d-block w-100" height="380" alt="house image">
+          </div>
+          <div class="carousel-item">
+            <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689622485/13954fe7-98c8-42b1-b415-d211f628ccab_qsjqfr.png" class="d-block w-100" height="380" alt="car image">
+          </div>
+          <div class="carousel-item">
+            <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689623348/66053117-pattaya-thailand-22-nov-2016-motorbikes-for-rent-outside-shops-in-pattaya-motor-bike-rental_d02zed.jpg" class="d-block w-100" height="380" alt="bike image">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-target="#carouselExampleIndicators" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-target="#carouselExampleIndicators" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </button>
+      </div>
+    <!--carousel ends-->
+    <!--houses starts-->
+    <div class="house-cotainer p-2">
+        <div class="row">
+            <div class="col-12">
+                <h3>Rent for Houses and Apartments</h3>
+            </div>
+            <div class="col-12 col-md-5 col-lg-3 mb-2">
+            <div class="card house-card" style="width: 20rem;">
+                <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689625796/Untitled_20design_20-2-min_j1wnaj.png" class="card-img-top" alt="1bhk">
+                <div class="card-body">
+                  <h5 class="card-title">1BHK Houses</h5>
+                  <p class="card-text">Starting from Rs.9999/-</p>
+                  <a href="" class="menu-item-link">View All
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                      </svg>
+                </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-5 col-lg-3 mb-2">
+                <div class="card house-card" style="width: 20rem;">
+                    <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689626369/independent-house-design-for-your-home_xfhbxi.jpg" class="card-img-top" alt="2bhk">
+                    <div class="card-body">
+                      <h5 class="card-title">2BHK Houses</h5>
+                      <p class="card-text">Starting from Rs.12999/-</p>
+                      <a href="" class="menu-item-link">View All
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-5 col-lg-3 mb-2">
+                    <div class="card house-card" style="width: 20rem;">
+                        <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689626608/What-does-an-Independent-House-mean-1_hugavf.jpg" class="card-img-top" alt="individual">
+                        <div class="card-body">
+                          <h5 class="card-title">Individual Houses</h5>
+                          <p class="card-text">Starting from Rs.16999/-</p>
+                          <a href="" class="menu-item-link">View All
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                              </svg>
+                        </a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-lg-3 mb-2">
+                    <div class="card house-card" style="width: 20rem;">
+                        <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689626770/Renting-an-Apartment-in-Seattle-BellCentre-1_wq1swt.jpg" class="card-img-top" alt="apartment">
+                        <div class="card-body">
+                          <h5 class="card-title">Apartments</h5>
+                          <p class="card-text">Starting from Rs.29999/-</p>
+                          <a href="" class="menu-item-link">View All
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                              </svg>
+                        </a>
+                        </div>
+                      </div>
+                    </div>
+        </div>
+
+    </div>
+    <!--houses ends-->
+    <!--Rent Cars-->
+    <div class="house-cotainer p-2">
+      <div class="row">
+          <div class="col-12">
+              <h3>Rent for Cars</h3>
+          </div>
+          <div class="col-12 col-md-5 col-lg-3 mb-2">
+          <div class="card house-card" style="width: 20rem;">
+              <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689661813/US-electric-vehicle-sales-by-model-YTD-2022_lxpgg4.jpg" class="card-img-top" alt="1bhk">
+              <div class="card-body">
+                <h5 class="card-title">Normal Cars</h5>
+                <p class="card-text">Starting from Rs.1999/-</p>
+                <a href="" class="menu-item-link">View All
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 col-lg-3 mb-2">
+            <div class="card house-card" style="width: 20rem;">
+                <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689660688/explore-our-vehicles-1920x1080-vehicles_q22pvc.jpg" class="card-img-top" alt="1bhk">
+                <div class="card-body">
+                  <h5 class="card-title">Luxuary Cars</h5>
+                  <p class="card-text">Starting from Rs.10999/-</p>
+                  <a href="" class="menu-item-link">View All
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                      </svg>
+                </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-5 col-lg-3 mb-2">
+              <div class="card house-card" style="width: 20rem;">
+                  <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689661557/im-729258_bg11lb.jpg" class="card-img-top" alt="1bhk">
+                  <div class="card-body">
+                    <h5 class="card-title">Unique Cars</h5>
+                    <p class="card-text">Starting from Rs.19999/-</p>
+                    <a href="" class="menu-item-link">View All
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>
+                  </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-5 col-lg-3 mb-2">
+                <div class="card house-card" style="width: 20rem;">
+                    <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689661865/20200123-Sports-Cars-09_fl99rr.jpg" class="card-img-top" alt="1bhk">
+                    <div class="card-body">
+                      <h5 class="card-title">Sports Cars</h5>
+                      <p class="card-text">Starting from Rs.14999/-</p>
+                      <a href="" class="menu-item-link">View All
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+      </div>
+    </div>        
+    <!--cars ends-->
+    <!--bikes starts-->
+    <div class="house-cotainer p-2">
+      <div class="row">
+          <div class="col-12">
+              <h3>Rent for Bikes</h3>
+          </div>
+          <div class="col-12 col-md-5 col-lg-3 mb-2">
+          <div class="card house-card" style="width: 20rem;">
+              <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689662091/Motorcycle-in-Thailand_nlarzu.jpg" class="card-img-top" alt="1bhk">
+              <div class="card-body">
+                <h5 class="card-title">Normal Bikes</h5>
+                <p class="card-text">Starting from Rs.999/-</p>
+                <a href="" class="menu-item-link">View All
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-5 col-lg-3 mb-2">
+            <div class="card house-card" style="width: 20rem;">
+                <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689662158/rent-luxury-bikes-in_rq82iz.jpg" class="card-img-top" alt="1bhk">
+                <div class="card-body">
+                  <h5 class="card-title">Luxuary Bikes</h5>
+                  <p class="card-text">Starting from Rs.4999/-</p>
+                  <a href="" class="menu-item-link">View All
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                      </svg>
+                </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-5 col-lg-3 mb-2">
+              <div class="card house-card" style="width: 20rem;">
+                  <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689662204/composite_sbnjki.jpg" class="card-img-top" alt="1bhk">
+                  <div class="card-body">
+                    <h5 class="card-title">Unique Bikes</h5>
+                    <p class="card-text">Starting from Rs.7999/-</p>
+                    <a href="" class="menu-item-link">View All
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>
+                  </a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-5 col-lg-3 mb-2">
+                <div class="card house-card" style="width: 20rem;">
+                    <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689662345/About-Color-Image_sjuipe.jpg" class="card-img-top" alt="1bhk">
+                    <div class="card-body">
+                      <h5 class="card-title">Sports Cars</h5>
+                      <p class="card-text">Starting from Rs.5999/-</p>
+                      <a href="" class="menu-item-link">View All
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                          </svg>
+                    </a>
+                    </div>
+                  </div>
+                </div>
+      </div>
+    </div> 
+    <!--bikes ends-->
+    <!--Services start-->
+    <div class="house-cotainer p-2">
+      <div class="row">
+          <div class="col-12">
+              <h3>Services</h3>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-2">
+          <div class="card house-card" style="width: 22rem;">
+              <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689664457/home-services-investments_aq1soe.jpg" class="card-img-top" alt="1bhk">
+              <div class="card-body">
+                <h5 class="card-title">Housing Services</h5>
+                <p class="card-text">Starting from Rs.999/-</p>
+                <a href="" class="menu-item-link">View All
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                    </svg>
+              </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mb-2">
+            <div class="card house-card" style="width: 22rem;">
+                <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689664478/maxresdefault_kgorba.jpg" class="card-img-top" alt="1bhk">
+                <div class="card-body">
+                  <h5 class="card-title">Car Services</h5>
+                  <p class="card-text">Starting from Rs.2999/-</p>
+                  <a href="" class="menu-item-link">View All
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                      </svg>
+                </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-2">
+              <div class="card house-card" style="width: 22rem;">
+                  <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689664583/AMAC_Motorcycle_Mechanic_Workshop_ti3shv.png" class="card-img-top" alt="1bhk">
+                  <div class="card-body">
+                    <h5 class="card-title">Bike Services</h5>
+                    <p class="card-text">Starting from Rs.1999/-</p>
+                    <a href="" class="menu-item-link">View All
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+                        </svg>
+                  </a>
+                  </div>
+                </div>
+              </div>
+       </div>
+     </div>
+    <!--services ends-->
+    <!--contact section-->
+<div class="contact-container text-center p-4">
+  <div class="row">
+    <div class="col-12">
+      <h1 class="contact-heading mb-3">Let us Join Together</h1>
+      <button class="button-con p-2">CONTACT US</button>
+    </div>
+  </div>
+
+</div>
+<!--contact section-->
+    <!--footer starts-->
+    <div class="footer-container m-2 pl-2" id="footer">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          
+            <img src="https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689623920/rebrand-rent-logo-dark.8e01afa7_jwgrif.svg" width="110" height="110" class="logo" alt="Rent img">
+            <div class="footer-icons p-2">
+            <i class="fa-brands fa-google p-2"></i>
+            <i class="fa-brands fa-twitter p-2"></i>
+            <i class="fa-brands fa-instagram p-2"></i>
+            <i class="fa-brands fa-linkedin p-2"></i>
+            </div>
+            <p class="footer-address">2-65, Guntur, Andhra Pradesh, India.</p>
+          
+        </div>
+        <div class="col-sm-4 col-md-6 col-lg-3">
+          <p class="footer-para">Get to know us</p>
+          <p>About us</p>
+          <p>Carrers</p>
+          <p>Press Releases</p>
+          <p>Gift a smile</p>
+        </div>
+        <div class="col-sm-4 col-md-6 col-lg-3">
+          <p class="footer-para">Contact with us</p>
+          <p>Facebook</p>
+          <p>Twitter</p>
+          <p>Instagram</p>
+        </div>
+        <div class="col-sm-4 col-md-6 col-lg-3">
+          <p class="footer-para">Let Us Help You</p>
+          <p>100% Purchase</p>
+          <p>Protection</p>
+          <p>Your Account</p>
+          <p>Return Centre</p>
+          <p>Help</p>
+        </div>
+        <div class="footer-line col-12 text-center">
+          <h6><i class="fa-light fa-at"></i>2023 by Raheem. Created with Bootstrap</h6>
+        </div>
+      </div>
+    
+    </div>
+    <!--footer ends-->
+
+</body>
+</html>

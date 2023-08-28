@@ -1,0 +1,26 @@
+GET http://localhost:8000/players
+
+###
+POST http://localhost:8000/addplayer
+Content-Type: application/json
+
+{
+    "playerId":7,
+    "playerName":"Hardik",
+    "jerseyNumber":4,
+    "role":"All-Rounder"
+}
+###
+PUT http://localhost:8000/players/7
+Content-Type: application/json
+
+{
+    "jerseyNumber":1,
+    "role":"Keeper"
+}
+
+###
+DELETE http://localhost:8000/players/7
+
+###
+GET  http://localhost:8000/players/6

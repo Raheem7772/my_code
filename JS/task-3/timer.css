@@ -1,0 +1,34 @@
+.bg-container {
+    background: linear-gradient(#189ffd, #29f39c);
+    height: 100vh;
+}
+
+.peace-container {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.peace-heading {
+    font-size: 34px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+.peace-paragraph {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #616e7c;
+}
+
+.peace-heading-2 {
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Roboto";
+    color: #323f4b;
+}
+
+.buttons-list-container {
+    list-style: none;
+}

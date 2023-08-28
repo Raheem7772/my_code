@@ -1,0 +1,13 @@
+.text{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+#counternum{
+    height: 20vh;
+    font-size: 50px;
+    
+}
+.btn{
+    width: 100px;
+}

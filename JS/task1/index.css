@@ -1,0 +1,43 @@
+.bg-container{
+    background-color: #ffff;
+}
+.button1{
+    background-color: #e0e0e0;
+    font-family: "Roboto";
+font-size: 24px;
+font-weight: bold;
+width: 99px;
+height: 44px;
+border-radius: 8px;
+margin: 16px;
+}
+.button2{
+    background-color: #6fcf97;
+    font-family: "Roboto";
+font-size: 24px;
+font-weight: bold;
+width: 99px;
+height: 44px;
+border-radius: 8px;
+margin: 16px;
+}
+.button3{
+    background-color: #56ccf2;
+    font-family: "Roboto";
+font-size: 24px;
+font-weight: bold;
+width: 99px;
+height: 44px;
+border-radius: 8px;
+margin: 16px;
+}
+.button4{
+    background-color: #bb6bd9;
+    font-family: "Roboto";
+font-size: 24px;
+font-weight: bold;
+width: 99px;
+height: 44px;
+border-radius: 8px;
+margin: 16px;
+}

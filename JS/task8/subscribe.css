@@ -1,0 +1,14 @@
+.error-message {
+    color: #dc3545;
+    font-family: "Roboto";
+    font-size: 14px;
+  }
+.header{
+    background-color: aliceblue;
+}
+.fa-regular{
+    font-size: 30px;
+}
+.form-control{
+    border-radius: 8px;
+}

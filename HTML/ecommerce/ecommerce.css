@@ -1,0 +1,175 @@
+#navItem1:hover{
+    color: blue;
+}
+#navItem2:hover{
+    color: blue;
+}
+#navItem3:hover{
+    color: blue;
+}
+#navItem4:hover{
+    color: blue;
+}
+.carousal-img{
+    height: 400px;
+}
+.service-card{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.delivery-logo{
+    height: 100px;
+}
+.ser-para{
+    color: grey;
+}
+.ser-para1{
+    color: grey;
+    font-family: roboto;
+    font-size: 18px;
+}
+.product-contaier{
+    background-color: whitesmoke;
+}
+.product-card{
+    background-image: url("https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689316303/over-ear-headphones-tp-top-2x1-lowres1024-8482.jpg_oxtf3a.jpg");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 300px;
+    margin: 10px;
+    font-family: arial; 
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.pro-heading{
+    color: rgb(56, 7, 233);
+}
+.pro-button {
+    border: 2px;
+    border-radius: 30px;
+    background-color: white;
+    color: orange;
+    padding: 12px 25px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .pro-content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  .product-card1{
+    background-image: url("https://res.cloudinary.com/dsm5qqqrm/image/upload/v1689317074/best-laptop-medium_iyu0kt.jpg");
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 100px;
+    height: 300px;
+    margin: 10px;
+    font-family: arial; 
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.offers-sec{
+    background-image: linear-gradient(to left, #a56395, #815377);
+
+}
+.offer-img1{
+    border-radius: 10px;
+    height: 200px;
+    width: 70%;
+    background-color: transparent;
+}
+.discount-sec-para{
+    color: white;
+    font-family: roboto;
+    font-size: 20px;
+}
+.discount-img{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    margin-bottom: 3px;
+}
+.blog-title{
+    color: grey;
+    font-family: "italic";
+    font-size: 20px;
+}
+.blog--title-heading{
+    color: rgb(85, 81, 81);
+    font-size: 25px;
+}
+.menu-item-link{
+    color: rgba(236, 110, 6, 0.555);
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.explore-container{
+    background: #f1f1f1;
+    
+}
+.explore-heading{
+    color: rgb(39, 33, 39);
+}
+.card1{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 100px;
+  font-family: arial;
+}
+
+.card1-img{
+    height: 150px;
+    border-radius: 15px;
+}
+.card1-heading{
+color:rgb(51, 7, 209);
+font-weight: bold;
+}
+.explore-link{
+    color: rgba(236, 110, 6, 0.555);
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.mini1-title{
+    font-weight: bold;
+}
+.card2-img{
+    height: 200px;
+    border-radius: 15px;
+}
+.contact-container{
+    background-color: rgb(223, 225, 226);
+}
+.button-con{
+    color: orange;
+    background-color: #f1f1f1;
+    font-weight: bold;
+    font-size: 20px;
+    border-color: orange;
+    border-radius: 3px;
+}
+.contact-heading{
+    font-size: 60px;
+    color: #815377;
+}
+.footer-container{
+    background-color: rgb(253, 252, 255);
+}
+.footer-icons{
+    font-size: 20px;
+    color: rgb(6, 10, 240);
+}
+.footer-address{
+    color:black;
+    
+}
+.footer-para{
+    font-size: 20px;
+}

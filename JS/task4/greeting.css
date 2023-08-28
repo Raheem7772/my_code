@@ -1,0 +1,20 @@
+.textstyle{
+      font-size: 30px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-90%,50% );
+
+}
+.text{
+    text-align: center;
+   
+}
+.textstyle1{
+    font-size: 20px;
+    position: absolute;
+    left:600px;
+    top:5px;
+    
+
+}

@@ -1,0 +1,34 @@
+.detailed-view-bg-container{
+    background-image: url(https://res.cloudinary.com/dsm5qqqrm/image/upload/v1688541968/cld-sample-2.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    width: 60vh;
+}
+.detailed-view-heading{
+    color: white;
+    font-family: roboto;
+    padding: 30px;
+    height: 50px;
+    width: bold;
+    margin-bottom: 50px;
+}
+.detailed-card-container{
+    background-color: white
+    Border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 30px; 
+}
+.detailview-text-container{
+    padding: 30px;
+    background-color: white;
+}
+.text-heading{
+    font-size: 30px;
+    color: rgb(20, 218, 102);
+}
+.detailed-view-card-description{
+    color: #380ce7;
+    font-family: "Roboto";
+    font-size: 13px;  
+    font-weight: bold10px;  
+}
